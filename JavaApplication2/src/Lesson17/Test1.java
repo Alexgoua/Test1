@@ -1,7 +1,5 @@
 package Lesson17;
-class Car{
-
-}
+class Car{}
 public class Test1 {
     public static void main(String[] args) {
         StringBuilder sb1 = new StringBuilder();
@@ -41,5 +39,6 @@ public class Test1 {
 
         StringBuilder sb12 = new StringBuilder("Vsem privet");
         System.out.println(sb12.replace(0, 4, "Pete"));
+        System.out.println(sb12.capacity());
     }
 }
