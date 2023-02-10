@@ -27,7 +27,6 @@ public class Test2 {
         String[] s3 = {"iiii", "jjjj"};
 
         String[] arrayNew = abc(s1, s2, s3);
-        String[] args1 = {"bbb", "iiii", "jjjj"};
 
         for (int i = 0; i < arrayNew.length; i++) {
             for (String s5: args) {
