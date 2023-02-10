@@ -23,7 +23,7 @@ public class Test1 {
     }
 
     public static void main(String[] args) {
-        int[] array1 = {1, 9, 3, -8, 0, 5, 4, 1, -8, 9};
+        int[] array1 = {-9, 1, 9, 3, -8, 0, 5, 4, 1, -8, 9};
         for (int j : sortirovka(array1)) {
             System.out.print(j + " ");
         }
