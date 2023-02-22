@@ -10,7 +10,7 @@ public class Test2 {
         double time = 0.0;
         double passedDist = 0.0;
         double wholeTime = 0.0;
-        double meeting = 1.0;
+        double meeting = 0.0;
 
         while (distance > meeting) {
             if (count % 2 == 0) {
