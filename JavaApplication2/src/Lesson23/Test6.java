@@ -18,5 +18,7 @@ class Mouse1 extends Animal1 {
     public static void main(String[] args) {
         Animal1 a = new Mouse1();
         a.showInfo();
+        Animal1 a1 = new Animal1();
+        a1.showInfo();
     }
 }

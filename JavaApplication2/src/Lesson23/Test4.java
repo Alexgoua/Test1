@@ -11,8 +11,8 @@ public class Test4 {
     public static void main(String[] args) {
         Test4 t = new Test4();
         Animal an = new Mouse();
-        t.abc(an); //compile time binding
-        an.getName(); //run time binding
+        t.abc(an); //compile time binding, так как аргумент - переменная (см. слайд)
+        an.getName(); //run time binding - так как тут метод (см. слайд)
     }
 }
 class Animal {
