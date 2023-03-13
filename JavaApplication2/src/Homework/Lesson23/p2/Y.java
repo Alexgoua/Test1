@@ -3,7 +3,7 @@ package Homework.Lesson23.p2;
 import Homework.Lesson23.p1.*;
 
 public class Y extends X {
-    //Y() { }
+    Y() { }
     public void abc() {
         System.out.println('Y');
     }
